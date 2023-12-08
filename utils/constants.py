@@ -2,10 +2,10 @@ from pathlib import Path
 import glob
 import os
 
-gpcc_path = Path('/home/filo/Desktop/PhD/papers/02_Compression/mpeg-pcc-tmc13/build/tmc3/tmc3')
-selma_path = Path('/home/filo/Desktop/PhD/papers/02_Compression/selma/')
-out_dir = Path('/home/filo/Desktop/PhD/papers/02_Compression/scratch/output')
-config_dir = Path('/home/filo/Desktop/PhD/papers/02_Compression/scratch/config')
+gpcc_path = Path('')
+selma_path = Path('')
+out_dir = Path('')
+config_dir = Path('')
 
 config_files = glob.glob("config/*.cfg")
 modes = [os.path.basename(f).replace(".cfg", "") for f in config_files]
