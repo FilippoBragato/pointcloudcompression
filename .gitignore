@@ -1,0 +1,4 @@
+**/*.cfg
+output
+*.zip
+*.out
